@@ -29,7 +29,7 @@ int main() {
 				char* OriginalC = NewCharMemory;
 				printf("you now have %d new char type memory\n please enter their values:\n", NumOf);
 				for (int i = 0; i < NumOf; i++) {
-					scanf("%c", NewCharMemory);
+					scanf(" %c", NewCharMemory);
 					NewCharMemory++;
 				}
 				printf("thank you!\n");
